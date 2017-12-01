@@ -32,7 +32,7 @@ namespace dni_v_tyzdni
             {
                 Console.WriteLine("spatny vstup");
             }
-
+            // treba nejaku private funkcia ,, a aby sa to nekontrolovalo dvakrat ...
             
 
             
