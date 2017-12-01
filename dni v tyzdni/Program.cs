@@ -10,6 +10,7 @@ namespace dni_v_tyzdni
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
