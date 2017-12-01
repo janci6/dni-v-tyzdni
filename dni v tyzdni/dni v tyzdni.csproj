@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="auto.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="cykly.cs" />
     <Compile Include="dni v tyzdni.cs" />
+    <Compile Include="pole.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

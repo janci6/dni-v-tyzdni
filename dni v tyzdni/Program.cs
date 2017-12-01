@@ -21,9 +21,20 @@ namespace dni_v_tyzdni
 
             //cykly.cyklusparameter(6);
 
-            cykly.cyklusforcontinue();
+            //cykly.cyklusforcontinue();
 
-            Console.ReadKey();
+
+
+            // int  apovodne = 10;
+            //  cykly.zvysojednotku(ref apovodne);
+            //Console.WriteLine(apovodne);
+
+            pole p = new pole();
+
+            
+            p.naplnpole();
+            p.vypispole();
+            Console.ReadLine();
         }
     }
 }

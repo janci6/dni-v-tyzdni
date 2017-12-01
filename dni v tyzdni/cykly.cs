@@ -56,5 +56,37 @@ namespace dni_v_tyzdni
                 Console.WriteLine(i);
             }
         }
+        public static void hodnotvsreference()
+        {
+            int hodnota1 = 6;
+            int hodnota2;
+            hodnota2 = hodnota1;
+            hodnota2++;
+            Console.WriteLine(hodnota1);
+            Console.WriteLine(hodnota2);
+
+            auto auto1 = new auto();
+            auto1.farba = "cervena";
+            auto auto2 = auto1;
+            auto2.farba = "cierna";
+
+            Console.WriteLine(auto1.farba);
+            Console.WriteLine(auto2.farba);
+
+        }
+        public static void prefarbiauto(auto auto)
+        {
+            auto.farba = "biela";
+        }
+        public static void zvysojednotku(ref int a)
+        {
+            a++;
+        }
+        public static bool otoc(bool vstup, out int b)
+        {
+            b = 10;
+            return !vstup;
+        }
+
     }
 }
